@@ -149,6 +149,20 @@
   </footer>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          whatsapp: "+18086319522", // WhatsApp number
+          call_to_action: "Message us", // Call to action
+          position: "right", // Position may be 'right' or 'left'
+      };
+      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
 <script id="keyreply-script" src="//keyreply.com/chat/widget.js" data-align="right" data-color="#03A9F4" data-apps="JTdCJTIyZW1haWwlMjI6JTIyY29uc3RhbnRpbi5kdW1iYUBnbWFpbC5jb20lMjIlN0Q="></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
