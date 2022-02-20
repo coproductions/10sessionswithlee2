@@ -58,6 +58,7 @@ h2{
 }
 
 .container.fb-container{
+  padding-top: 0;
   padding-bottom: 20px;
 }
 .block3-container{
