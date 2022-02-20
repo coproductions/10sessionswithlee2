@@ -57,8 +57,8 @@ h2{
   /*padding-top: 500px;*/
 }
 
-.fb-container{
-  padding: 20px;
+.container.fb-container{
+  padding-bottom: 20px;
 }
 .block3-container{
   padding: 0px 0px 30px 0px;
