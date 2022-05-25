@@ -72,7 +72,10 @@ h2{
   /*background:  #FFF5E6;*/
   /*max-width: 1200px;*/
     /*margin: 0 auto;*/
-    background-color: #FFBA7F;
+    /*background-color: #FFBA7F;*/
+  background: rgb(255,186,127);
+  background: linear-gradient(0deg, rgba(255,186,127,1) 42%, rgba(255,227,203,1) 100%);
+
   /*background-image: url('../images/beach-wide.png');*/
   /*background-color:   #FFF5E6;*/
 
